@@ -44,3 +44,18 @@ header {
     background-color: blue;
     color: white; 
 }
+
+.menu-left{
+    position: fixed;
+    left: 0;
+    background-color: black;
+    width: 300px;
+    height: 100%;
+}
+.menu-right{
+    position: fixed;
+    right: 0;
+    background-color: black;
+    width: 300px;
+    height: 100%;
+}
