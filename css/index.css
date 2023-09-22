@@ -26,6 +26,7 @@ header nav ul {
   gap: 30px;
 }
 
+main .menu-left ul li a,
 header nav ul li button {
   cursor: pointer;
   border: none;
