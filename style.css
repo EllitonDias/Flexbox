@@ -6,26 +6,32 @@
     text-decoration: none;
 }
 
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    justify-content: space-between;
     padding: 10px 30px;
     z-index: 1000;
-    background-color: aquamarine;  
+    background-color: aquamarine;
 }
 
 .logo {
     width: 80px;
 }
 
-.nav ul li{
-    display: flex; 
-    justify-content: space-between;  
+.nav ul li {
+    display: flex;
+    justify-content: space-between;
 }
- 
-.nav button {  
+
+.nav button {
     width: 100%;
     height: 40px;
     margin: 10px;
@@ -42,20 +48,29 @@ header {
     transform: translateY(3px);
     box-shadow: none;
     background-color: blue;
-    color: white; 
+    color: white;
 }
 
-.menu-left{
-    position: fixed;
-    left: 0;
+.container {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.menu-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     background-color: black;
     width: 300px;
     height: 100%;
 }
-.menu-right{
-    position: fixed;
-    right: 0;
+
+.menu-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
     background-color: black;
     width: 300px;
-    height: 100%;
 }
