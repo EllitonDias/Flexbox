@@ -26,17 +26,17 @@ header nav ul {
   gap: 30px;
 }
 
-main .menu-left nav ul a,
-header nav ul li a {
-  border: 1px solid 000;
+header nav ul li button {
+  cursor: pointer;
+  border: none;
   padding: 10px 14px;
   text-decoration: none;
-  font-size: 18px;
-  color: #1A60A9;
+  font-size: 12px;
+  color: black;
   border-radius: 6px;
 }
 
-header nav ul li a:hover {
+header nav ul li button:hover {
   background-color: #fff;
 }
 
@@ -104,13 +104,18 @@ main .menu-rigth div h2 {
 
 footer {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 40px;
   background-color: #175EA8;
+
 }
 
-footer p {
+footer p{
+  color: white;
+}
+
+footer p a{
   color: #fff;
-  padding: 6px;
 }
